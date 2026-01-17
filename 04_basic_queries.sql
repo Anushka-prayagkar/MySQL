@@ -1,0 +1,15 @@
+use startersql;
+-- select name, gender from users;
+-- select gender, name from users;
+-- select * from users where gender = 'Female';
+-- select * from users where gender = 'Male';
+-- select * from users where gender <> 'Male';
+-- select * from users where gender != 'Male';
+-- select * from users where date_of_birth < '1990-05-04';
+-- select * from users where date_of_birth between '1995-01-01' and '1997-01-01';
+-- select * from users where gender in ('Male', 'Female');
+-- select * from users where salary > '70000' and gender = 'Female';
+-- select * from users where salary < '70000' or gender = 'Male';
+-- select * from users where salary < '70000' or gender = 'Male' order by date_of_birth asc;
+-- select * from users where salary < '70000' or gender = 'Male' order by date_of_birth desc;
+select * from users where salary < '70000' or gender = 'Male' order by date_of_birth desc limit 5;
