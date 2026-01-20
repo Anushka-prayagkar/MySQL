@@ -1,0 +1,14 @@
+use startersql;
+
+-- create view rich_users as 
+-- select * from users where salary > 70000; 
+
+-- select * from rich_users;
+
+-- update users set salary = 30000 where id = 2;
+
+-- select * from rich_users;
+
+-- select name, email from rich_users;
+
+drop view rich_users;
